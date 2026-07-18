@@ -1,0 +1,19 @@
+title: Charlis Curley
+description: Data, performance and transformation work, Power BI projects, and writing.
+theme: minima
+minima:
+  skin: dark
+  date_format: "%-d %B %Y"
+
+header_pages:
+  - projects.md
+  - writing.md
+
+plugins:
+  - jekyll-feed
+
+# Prevents Jekyll from trying to build these
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
